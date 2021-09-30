@@ -1,0 +1,102 @@
+body{
+    font-family: sans-serif;
+    color:white;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../Pictures/Inside.jpg");
+	background-size: cover;
+    margin:auto;
+}
+.nav{
+	width: 500px;
+    float: right;
+}
+.nav ul li{
+        margin: 20px;
+        float:left;
+        text-align: center;
+        font-family: 'Times New Roman';
+        padding: 10px 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(128, 99, 82);
+}
+.nav ul li:hover{
+    border: 1px solid rgb(128, 99, 82);
+    background-color:white;
+	color: black
+
+}
+.nav ul li a:hover{color:#ffe1cb;
+    transition: 1s;
+}
+
+.main{
+    width: 700px;
+    height: 1100px;
+    background-color:#252321;
+    opacity: 0.9;
+    padding: 55px;
+    margin: 20px;
+}
+
+.main h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 80px;
+    color: #ffe1cb;
+}
+
+.main p{
+    text-align: center;
+    font-family: 'Times New Roman';
+    color: rgb(128, 99, 82);
+}
+em{
+    font-family: 'Times New Roman';
+}
+.main h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 80px;
+    color: #ffe1cb;
+}
+
+.hours ul{
+    display: inline-block;
+    text-align:center;
+    font-family: 'Times New Roman';
+    color: rgb(128, 99, 82);
+}
+
+footer{
+    background-color:#252321;
+    opacity: 0.9;
+}
+.Information{
+    color: #ffe1cb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.Footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12rem;
+}
+
+.Footer-heading a{
+    font-family: 'Times New Roman';
+    color: rgb(128, 99, 82);
+    margin-bottom: 0.5rem;
+}
+
+.Footer-heading a:hover{
+    color:white;
+    transition: 1s;
+}
+
+.Footer-heading p{
+    font-family: 'Times New Roman';
+    color: rgb(128, 99, 82);
+}
+
