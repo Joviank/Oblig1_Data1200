@@ -10,6 +10,9 @@ body{
 	width: 500px;
     float: right;
 }
+ul{
+    list-style-type:none;
+}
 .nav ul li{
         margin: 20px;
         float:left;
@@ -43,7 +46,6 @@ body{
 .main h1{
     text-align: center;
     text-transform: uppercase;
-    font-weight: 80px;
     color: #ffe1cb;
 }
 
@@ -55,7 +57,6 @@ body{
 .main h2{
     text-align: center;
     text-transform: uppercase;
-    font-weight: 80px;
     color: #ffe1cb;
 }
 
