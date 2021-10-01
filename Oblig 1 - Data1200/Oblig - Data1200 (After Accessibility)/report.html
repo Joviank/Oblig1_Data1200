@@ -1,36 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Report</title>
 </head>
 <body>
     <h1> Accessibility report </h1>
-    <p> only measure we took for accessibility before checking the website with ACheker was adding alt-text to images. This is done to provide a description of the image to screen readers, and in case the image fails to load. 
+    <ul>
+        <li>Stilian Todorov Zagorov - s364531 </li>
+        <li>Jovia Namayanja Kaggwa - s364526 </li>
+        <li>Ngoc Linn Vu Huynh - s364523 </li>
+        <li>Saloni Arora Chitkara - s364538 </li>
 
+    </ul>
+    <p>
+         Only measure we took for accessibility before checking the website with ACheker was adding alt-text to images. This is done to provide a description of the image to screen readers, and in case the image fails to load. 
+        
         The accessibility checker discovered the following issues:
         No title and site language defined
-            (Our title was empty and we had no html language tag)
-        No label on input elements (like the email input when registering). 
-        We used two h1 tags in the “about us page”, and skipped h2 before adding h3. 
+        (Our title-tag was empty and we had no "html lang="en""-tag)
+        No label on input elements (like the email input when registering).  
+        We used h1 tags in the “about us page”, and skipped h2 before adding h3 which is connected to the footer. 
         Some of the colors we used didn’t have a high enough contrast (color ratio).
+    </p>    
              
         
+        <p>
         The corrections we made to the website after the check:
-        We defined the title and language on all pages (index, menu and about us)
+        We defined the title and language on all pages (Index.html, Menu.html and AboutUs.html)
         This has benefits both for search engines and for the end user. We added titles to our websites and defined the language as English. The latter can help SEO by suggesting our site only to users who are only looking for websites in the specified language. It can also help browser plugins such as translators. 
-        We added a <\label>\ for our inputs.
+        We added a "label" for our inputs.
         This is important because inputs like text boxes and buttons have to be labeled to make them accessible to screen readers 
         
-        We changed the second h1 tag to h2. 
-        Using “h1” incorrectly can affect how search engines rank our page, and is in violation of the specs/documentation of HTML. Headings are supposed to identify/mark parts of a website, and we cant have multiple parts with the same identifier (e.g. two <h1> tags). Likewise, a document (website) cant have a part 1 and part 3, but no part 2 (<h1>, <h3> but no <h2>)
-        
-        We picked better colors that are more readable.
-            Using readable colors makes the website more accessible to users with l	ower vision or colorblindness.
-        
-        An additional benefit to doing everything “by the book” and following the documentation is that search engines can pick up on sloppy code and might promote our website less if we were to omit labels and use the wrong heading tags. 
         </p>
+        <p>
+        We changed the second h1 tag to h2. 
+        Using “h1” incorrectly can affect how search engines rank our page, and is in violation of the specs/documentation of HTML. Headings are supposed to identify/mark parts of a website, and we cant have multiple parts with the same identifier (e.g. h1 tags). Likewise, a document (website) cant have a part 1 and part 3, but no part 2 (h1 and h3 but no h2)
+        </p>
+        <p>
+        We decided not change the colors, because AChecker took the background-image into consideration therefore. 
+        the color-ratio was deemed as an error. We have a transparent text-box which makes the color readable.
+        We decided to ignore the AChecker error of the color.
+        Using readable colors makes the website more accessible to users with l	ower vision or colorblindness.
+        </p>
+        <p>
+        An additional benefit to doing everything “by the book” and following the documentation is that search engines can pick up on sloppy code and might promote our website less if we were to omit labels and use the wrong heading tags.     
+    </p>
 </body>
 </html>
